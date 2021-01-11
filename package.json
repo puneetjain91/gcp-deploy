@@ -7,7 +7,7 @@
 "jest": {
     "collectCoverage": true,
     "coverageReporters": ["json", "html"]
-}
+},
 "scripts": {
     "test": "jest  --coverage"
 },
