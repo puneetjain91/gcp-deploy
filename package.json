@@ -4,8 +4,12 @@
 "description": "Node.js on Docker",
 "author": "First Last <first.last@example.com>",
 "main": "server.js",
+"jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"]
+ }
 "scripts": {
-"test": "jest --ci --reporters=default --reporters=jest-junit"
+  "test": "jest  --coverage
 },
 "dependencies": {
 "express": "^4.16.1",
