@@ -7,9 +7,9 @@
 "jest": {
     "collectCoverage": true,
     "coverageReporters": ["json", "html"]
- }
+}
 "scripts": {
-  "test": "jest  --coverage
+    "test": "jest  --coverage
 },
 "dependencies": {
 "express": "^4.16.1",
