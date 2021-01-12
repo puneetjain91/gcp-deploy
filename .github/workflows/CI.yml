@@ -37,6 +37,9 @@ jobs:
     - name: npm test
       id: npm_test
       run: npm test
+    - name: npm prettier
+      id: npm_prettier
+      run: npm install --save-dev --save-exact prettier
     - name: npm lint
       id: npm_lint
       run: npm install eslint --save-dev
