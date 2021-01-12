@@ -9,7 +9,10 @@
     "coverageReporters": ["json", "html"]
 },
 "scripts": {
-    "test": "jest  --coverage"
+    "test": "jest  --coverage",
+ "format:check": "prettier --check \"**/*.{js,jsx,yml,json,css,scss,md}\"",
+ "format": "prettier --write \"**/*.{js,jsx,yml,json,css,scss,md}\""
+    
 },
 "dependencies": {
 "express": "^4.16.1",
