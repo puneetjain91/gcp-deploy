@@ -1,6 +1,6 @@
 {
-  "arrowParens": "always",
-  "bracketSpacing": false,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
   "embeddedLanguageFormatting": "auto",
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
@@ -13,7 +13,7 @@
   "semi": true,
   "singleQuote": false,
   "tabWidth": 2,
-  "trailingComma": "es5",
+  "trailingComma": "none",
   "useTabs": false,
   "vueIndentScriptAndStyle": false
 }
