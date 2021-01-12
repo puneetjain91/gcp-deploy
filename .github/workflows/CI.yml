@@ -40,6 +40,9 @@ jobs:
     - name: npm prettier
       id: npm_prettier
       run: npm install --save-dev --save-exact prettier
+    - name: npm prettier format
+      id: npm_prettier_format
+      run: npm format:check
     - name: npm lint
       id: npm_lint
       run: npm install eslint --save-dev
