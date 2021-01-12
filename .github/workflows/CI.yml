@@ -43,6 +43,9 @@ jobs:
     - name: npm prettier format
       id: npm_prettier_format
       run: npm run format:check
+    - name: npm format
+      id: npm_format
+      run: npm run format
     - name: npm lint
       id: npm_lint
       run: npm install eslint --save-dev
